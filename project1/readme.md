@@ -1,15 +1,13 @@
-# Linkedin Layout Clone  
+# Linkedin Layout Clone
 
 <p>
-  <img src="images/images/Screenshot (941).png">
-</p>  
+  <img src="images/Screenshot (941).png">
+</p>
 
-## Live Version  
+## Live Version
 
-**[Click Here! :)](/)**   
+**[Click Here! :)](/)**
 
-## Project Overview   
+## Project Overview
 
-A clone of LinkedIn's Home Page using pure CSS. Responsive layout was created using Flexbox, Grid and Media Queries. 
-
-
+A clone of LinkedIn's Home Page using pure CSS. Responsive layout was created using Flexbox, Grid and Media Queries.
