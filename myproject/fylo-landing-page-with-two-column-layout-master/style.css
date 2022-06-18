@@ -57,13 +57,14 @@ body{
 
 .main-container{
     width: 40vw;
-    height: 90vh;
+    height: 75vh;
+    padding: 4vw;
 }
 
 .vector1{
-    width: 60vw;
-    height: 90vh;
-    padding: 5rem;
+    width: 50vw;
+    height: 75vh;
+    /* padding: 5rem; */
     right: 1rem;
     box-sizing: border-box;
 }
@@ -96,38 +97,38 @@ form>input[type="text"]{
 /* container 2 */
 #section{
     width: 100vw;
-    height: 120vh;
+    height: 150vh;
     background-color: #f5f6fa;
-    padding: 2rem;
 }
 
 .desktop-curve{
-    margin: -18vh 0 0 0;
-    width: 90vw;
+    margin: -8vh 0 0 0;
+    width: 100vw;
 }
 
 .mobile-curve{
-    margin: -18vh 0 0 0;
-    width: 90vw;
+    margin: -10vh 0 0 0;
+    width: 100vw;
     visibility: hidden;
 }
 
 .section-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100vw;
-    height: 120vh;
-    padding: 2rem;
-}
-
-.section-content{
-    width: 40vw;
-    height: 115vh;
+    height: 140vh;
 }
 
 .section-container>*{
-    top: 0.1vh;
-    padding: 1rem;
+    padding: 2rem;
+    width: 50vw;
+    height: 100vh;
+}
+
+.section-content{
+    /* width: 30vw; */
+    height: 100vh;
+    padding: 5rem;
 }
 
 .section-content>h1{
@@ -187,16 +188,29 @@ form>input[type="text"]{
     border-bottom: 1px solid hsl(150, 5%, 8%);
 }
 
-/* .section-img{
-    height: 10px;
-    bottom: 80rem;
+.image2{
+    position:relative;
+    width: 10000px;  
+    height: 100vh;  
+    text-align: center;  
+    padding: 1px; 
+    right: 10rem; 
+    opacity: 0.5;
+}
+
+/* .image2>.vector2{ 
+    object-fit: cover ;
+    margin: -10vh 0;
+    width: 1px;
+    float: right;
+    box-sizing: border-box;  
 } */
 
 
 
 /* container 3 */
 .second-sec{
-    background-color: #5758BB;
+    background-color: #8395a7;
     height: 35vh;
     width: 100vw;
 }
@@ -238,7 +252,7 @@ form>input[type="text"]{
 
 .button2{
     background-color:#1B1464;
-    width: 10vw;
+    width: 15vw;
     height: 5vh;
 }
 
@@ -252,8 +266,9 @@ form>input[type="text"]{
 
 #footer{
     width: 100vw;
-    background-color: #718093;
+    background-color: #222f3e;
     padding: 2rem;
+    /* height: 30vh; */
 }
 
 .container4{
